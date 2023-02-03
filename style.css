@@ -1,0 +1,82 @@
+
+
+.buyBeherit {
+    height: 200px;
+    width: 200px;
+    flex-flow: wrap;
+    vertical-align: top;
+    align-items: center;
+    justify-content: center;
+  }
+  .killApostleButton{
+    height: 400px;
+    width: 550px;
+    background-image: url("image/dragonSlayer.webp");
+    background-size: cover;
+    
+  }
+
+.gutsWindow h3 {
+    margin-top: 0px; 
+    margin-bottom: 0px;
+  }
+.imageIcon {
+  height: 80px;
+  width: 80px;
+}
+.container > *{
+  margin: 6px;
+}
+.container{
+  border: solid 4px;
+  border-radius: 10px;
+  height: max-content;
+  width:max-content;
+  margin: 10px;
+  background-image: url("image/stone.png");
+  background-repeat: repeat;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.darkEssenceIcon{
+  height: 350px;
+  width: 216px;
+}  
+.darkEssenceNumber{
+  font-size: 4em;
+  text-align: center;
+  margin: 21px;
+}
+.beheritIcon{
+  height: 135px;
+  width: 135px;
+  
+}
+.beheritNumber{
+  text-align: center;
+  margin: 0px;
+  font-size: 3em;
+}
+.fontStyle{
+  font-family: 'Uncial Antiqua', cursive;
+}
+.gutsImage{
+  height: auto;
+  width: 400px;
+}
+.spaceAround{
+  justify-content: space-around;
+}
+.dragonSlayerImage{                     
+  height: auto;
+  width: 135px;
+}
+.centerImage{
+  display: inline-block;
+}
+
+
+
+

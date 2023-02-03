@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="fontStyle">
+      <h1>Project Berserk</h1>
+    </div>
+
+    <canvas
+      id="swordSharpening"
+      width="1200"
+      height="1000"
+      style="background-color: bisque"
+    ></canvas>
+
+    <div class="container row fontStyle">
+      <div>
+        <button
+          class="killApostleButton fontStyle"
+          id="killApostleButton"
+          onclick="playerClick()"
+        ></button>
+        <div class="fontStyle">
+          <h1 id="dammagePerClick">degat par click 1000</h1>
+        </div>
+      </div>
+
+      <div>
+        <img class="darkEssenceIcon" src="image/brandOfSacrifice.png" />
+        <div id="darkessenceDisplay" class="darkEssenceNumber"></div>
+      </div>
+    </div>
+    <!-- new -->
+    <div class="row">
+      <!-- new -->
+      <div class="container row fontStyle">
+        <button
+          class="buyBeherit fontStyle row"
+          id="buyBeheritButton"
+          onclick="buyBeherit()"
+        >
+          <span id="priceOfBeherit"></span>
+          <img src="image/brandOfSacrifice.png" width="12px" />
+        </button>
+
+        <div>
+          <img class="beheritIcon" src="image/behelito.jpg" />
+          <div class="beheritNumber" id="beheritDisplay"></div>
+        </div>
+      </div>
+
+      <div class="container fontStyle" onclick="buyLevelUpGuts()">
+        <div class="row spaceAround">
+          <h3>Lvl of Guts:</h3>
+          <h3 id="lvlOfGuts"></h3>
+          <h3>Upgrade :</h3>
+          <h3 id="priceOfLvlUpGuts"></h3>
+        </div>
+        <img class="gutsImage" src="image/kidGuts.jpg" />
+      </div>
+    </div>
+    <div class="container fontSyle">
+      <!-- new -->
+      <img class="dragonSlayerImage" src="image/dragonSlayer.png" />
+      <!-- new -->
+    </div>
+
+    <!--   gutsImage ==>  500px 500px -->
+    <img src="image/gutsvsgrifith.gif" />
+  </body>
+  <!-- <script src="./test.js"></script> -->
+  <script src="darkEssence.js"></script>
+  <script src="guts.js"></script>
+  <script src="beherit.js"></script>
+  <script src="display.js"></script>
+  <script src="projectBerserk.js"></script>
+  <script src="canvas.js"></script>
+</html>
